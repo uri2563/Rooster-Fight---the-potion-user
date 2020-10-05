@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f9dd610f4cfb4a4b9e803ca348750bc, type: 3}
+  m_Name: BasicPower
+  m_EditorClassIdentifier: 
+  Name: BasicPower
+  description: increase the chicken power whlile decreasing the speed
+  meshFilter: {fileID: -5178661895559278292, guid: 488e5339459503143aa3225da4c038cf,
+    type: 3}
+  material:
+  - {fileID: 2100000, guid: 68e0d73d56b6a1b49981da7c64750d98, type: 2}
+  - {fileID: 2100000, guid: 7ab63ecb1dbd3194981632aee12a0449, type: 2}
+  - {fileID: 2100000, guid: 7c69b776a4cf320458954f4a74f4f0e6, type: 2}
+  icon: {fileID: 21300000, guid: 909d57b4c10776143b7065bb516797a0, type: 3}
+  tier: 0
+  per_stats:
+    curr_health: 0
+    max_health: 0
+    speed: 0
+    power: 0
+  has_temp_effects: 1
+  temp_stats:
+    curr_health: 0
+    max_health: 0
+    speed: -1
+    power: 0.5
+  effectTime: 7
+  coolDownTime: 0

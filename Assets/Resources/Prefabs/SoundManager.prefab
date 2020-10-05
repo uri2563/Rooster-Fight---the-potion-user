@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8303909376264650678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8303909376264650676}
+  - component: {fileID: 8303909376264650677}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8303909376264650676
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8303909376264650678}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.3034039, y: 6.920717, z: -2.2374172}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8303909376264650677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8303909376264650678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881e2e3f9aa2d2449b4788a6e29e7143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: KICK
+    clip: {fileID: 8300000, guid: 6ca3124caaacd8941872443d6a615a49, type: 3}
+    volume: 0.51
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PECK
+    clip: {fileID: 8300000, guid: 285aeba0c498b5943bcf55a6af39e40f, type: 3}
+    volume: 0.49
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: RUSH
+    clip: {fileID: 8300000, guid: fda5c7cca9869e440b2ab3957901eb34, type: 3}
+    volume: 0.443
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GetHit
+    clip: {fileID: 8300000, guid: 2bd7facf1cc114146ad1c3b360b9df2e, type: 3}
+    volume: 0.385
+    pitch: 0.94
+    loop: 0
+    source: {fileID: 0}
+  - name: Glass
+    clip: {fileID: 8300000, guid: 2594382855b59fa49bf6cf31dae1ae6d, type: 3}
+    volume: 0.543
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: WalkAround
+    clip: {fileID: 8300000, guid: 81d9b25a6043f1f41ac4272d4753cdca, type: 3}
+    volume: 0.41
+    pitch: 1.54
+    loop: 0
+    source: {fileID: 0}
+  - name: Win
+    clip: {fileID: 8300000, guid: 0b6c2870b99f5a144b4c29f1be54ff79, type: 3}
+    volume: 0.41
+    pitch: 1.54
+    loop: 0
+    source: {fileID: 0}
+  - name: Lose
+    clip: {fileID: 8300000, guid: 6b554db6fc680b74ea02177c6b26fc29, type: 3}
+    volume: 0.715
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Claps
+    clip: {fileID: 8300000, guid: 9f5bc187ddb8ca7419d318229edbab2a, type: 3}
+    volume: 0.782
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Music
+    clip: {fileID: 8300000, guid: 2319197435e3488409cf347bb38e10db, type: 3}
+    volume: 0.302
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Click
+    clip: {fileID: 8300000, guid: 6333dbb3343a4c7498719686ff44e9db, type: 3}
+    volume: 0.343
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Bloop
+    clip: {fileID: 8300000, guid: 3935581501a81f54db97a0fb1e13d554, type: 3}
+    volume: 0.194
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Splash
+    clip: {fileID: 8300000, guid: 36c0376d7d0896349a5efdb5d16dd6d1, type: 3}
+    volume: 0.343
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}

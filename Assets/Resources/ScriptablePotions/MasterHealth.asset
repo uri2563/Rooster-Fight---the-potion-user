@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f9dd610f4cfb4a4b9e803ca348750bc, type: 3}
+  m_Name: MasterHealth
+  m_EditorClassIdentifier: 
+  Name: MasterHealth
+  description: Gives good amount of life
+  meshFilter: {fileID: -5178661895559278292, guid: 72d26fac8f8d7fb4282874e3dbd0bb76,
+    type: 3}
+  material:
+  - {fileID: 2100000, guid: c24fef48b3547274b81d622553279e7c, type: 2}
+  - {fileID: 2100000, guid: 68e0d73d56b6a1b49981da7c64750d98, type: 2}
+  - {fileID: 2100000, guid: 7ab63ecb1dbd3194981632aee12a0449, type: 2}
+  icon: {fileID: 21300000, guid: 8b4f9a1f12b2d224ebbc58de412aa6a3, type: 3}
+  tier: 6
+  per_stats:
+    curr_health: 20
+    max_health: 0
+    speed: 0
+    power: 0
+  has_temp_effects: 1
+  temp_stats:
+    curr_health: 0
+    max_health: 0
+    speed: 0
+    power: 0
+  effectTime: 10
+  coolDownTime: 5
