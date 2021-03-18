@@ -1,4 +1,4 @@
-# Rooster-Fight---the-potion-user
+# Rooster-Game
 unity game
 
 to get to the scripts forder 
